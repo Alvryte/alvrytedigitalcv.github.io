@@ -1,9 +1,6 @@
 body
 {
     background-color: dimgrey;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    background-attachment: scroll, fixed;
     font-weight: 300;
     color:lightyellow;
 }
