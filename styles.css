@@ -7,3 +7,25 @@ body
 {
     color: darkgrey;
 }
+
+.nav-container
+{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 940px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.nav-link
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 26px 13px;
+}
