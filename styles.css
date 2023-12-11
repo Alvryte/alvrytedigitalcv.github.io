@@ -8,7 +8,7 @@ body
     color: darkgrey;
 }
 
-a
+a:hover, a:active, a:visited, a:link
 {
     cursor:pointer;
     text-decoration: none;
