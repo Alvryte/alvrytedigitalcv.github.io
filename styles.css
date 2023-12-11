@@ -59,4 +59,10 @@ a:hover, a:active, a:visited, a:link
     color:aliceblue;
     font-size: 15px;
     box-sizing: border-box;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 50px;
+    max-width: 500px;
 }
