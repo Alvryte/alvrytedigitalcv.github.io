@@ -55,22 +55,23 @@ a:hover, a:active, a:visited, a:link
 {
     margin-left:-10px;
     margin-right:-10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-top: 1px solid;
 }
 
 .me-details
 {
     border: 2px solid rgb(87, 0, 0);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
     font-family:'Trebuchet MS', sans-serif;
     color:aliceblue;
     font-size: 23px;
     box-sizing: border-box;
-    text-align: left;
+    text-align: justify;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
+    max-width: 600;
 }
