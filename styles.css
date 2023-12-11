@@ -8,6 +8,12 @@ body
     color: darkgrey;
 }
 
+a
+{
+    cursor:pointer;
+    text-decoration: none;
+    
+}
 .nav-container
 {
     margin-left:auto;
