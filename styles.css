@@ -1,6 +1,9 @@
 body
 {
     background-color: dimgrey;
-    font-weight: 300;
     color:lightyellow;
+}
+.topMenu-style
+{
+    color: darkgrey;
 }
