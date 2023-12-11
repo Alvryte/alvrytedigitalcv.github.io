@@ -48,7 +48,7 @@ a:hover, a:active, a:visited, a:link
 .me-contact, .me-content
 {
     margin-left:-10px;
-    margin-right-10px;
+    margin-right:-10px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-top: 1px solid;
