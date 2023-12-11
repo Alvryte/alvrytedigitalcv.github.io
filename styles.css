@@ -56,8 +56,9 @@ a:hover, a:active, a:visited, a:link
 
 .me-details
 {
+    font-family:'Trebuchet MS', sans-serif;
     color:aliceblue;
-    font-size: 15px;
+    font-size: 30px;
     box-sizing: border-box;
     text-align: left;
     margin-right: auto;
