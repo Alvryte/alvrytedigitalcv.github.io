@@ -31,8 +31,24 @@ a:hover, a:active, a:visited, a:link
     vertical-align: top;
     margin-left: auto;
     margin-right: auto;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 26px 13px;
+}
+
+.me-contact, .me-content
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid;
+    text-align: center;
+    display: block;
+}
+
+.me-content
+{
+    color:antiquewhite;
+    font-size: 15px;
+    box-sizing: border-box;
 }
