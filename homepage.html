@@ -2,34 +2,279 @@
   <head>
     <title>About Me</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-
   <body>
-
-    <div  class="nav-container">
+    <div class="nav-container">
       <nav class="topMenu-style" role="navigation">
         <a class="nav-link" href="homepage.html">About me</a>
         <a class="nav-link" href="projects.html">Projects</a>
         <a class="nav-link" href="contact.html">Contact</a>
       </nav>
     </div>
-    
     <div class="section">
         <div class="me-content">
             <div class="my-image">
                 <img src="" alt="this is me image"> <!--- Add profile picture and border designs here-->
             </div>
+              <!---Introduction--->
             <p class="me-details">My name is Bryan Teddy D. Alvarico. I studied at Far Eastern University - Institute of Technology, majored at Bachelor of Science of Information
                 Technology specialized in Game Design and Animation. I am a quiet and focused person who can work swiftly and effectively either alone or as part of a team.
                 I am a honest and open minded individual who is willing to learn and adapt to any job related to Game Development.
             </p>
+            <!--- Skills --->
             <div class="me-content-2">
-                <p>
-                  This is what I am. So what? Am I here again? Really?
-                </p>
+              <!---Soft Skill--->
+              <button class="accordion">Soft Skills</button>
+              <div class="panel">
+                <table style="color:black;font-family:'Trebuchet MS';font-size: large;width: 100%; padding: 20,20,20,20;
+                text-align:center;">
+                  <!---row1--->
+                  <tr>
+                    <td>
+                      <p>English Language</p>
+                    </td>
+                    <td>
+                      <p>Time-management</p>
+                    </td>
+                  </tr>
+                  <!---row2--->
+                  <tr>
+                    <td>
+                      <p>Observation</p>
+                    </td>
+                    <td>
+                      <p>Cultural competence</p>
+                    </td>
+                  </tr>
+                  <!---row3--->
+                  <tr>
+                    <td>
+                      <p>Patience</p>
+                    </td>
+                    <td>
+                      <p>Writing</p>
+                    </td>
+                  </tr>
+                  <!---row4--->
+                  <tr>
+                    <td>
+                      <p>Humility</p>
+                    </td>
+                  
+                </table>
+              </div>
+              <!---Technical Skill--->
+              <button class="accordion">Technical Skills</button>
+              <div class="panel">
+                <table style="color:black;font-family:'Trebuchet MS';font-size: large;width: 100%;" >
+                  <!----Programming--->
+                  <!---row1--->
+                  <tr>
+                    <th style="padding-top:25;background: transparent;"><h2>Programming</h2></th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>HTML</p>
+                      <div class="skillcontainer">
+                        <div class="skills html">80%</div>
+                      </div>
+                    </td>
+                    <td>
+                      <p>CSS</p>
+                      <div class="skillcontainer">
+                        <div class="skills css">70%</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <!---row2--->
+                  <tr>
+                    <td>
+                      <p>JavaScript</p>
+                      <div class="skillcontainer">
+                        <div class="skills js">50%</div>
+                      </div>
+                    </td>
+                    <td>
+                      <p>C#</p>
+                      <div class="skillcontainer">
+                        <div class="skills csharp">80%</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <!----Documentations--->
+                  <!---row3--->
+                    <tr>
+                      <th style="padding-top:25"><h2>Documentation</h2></th>
+                    </tr>
+                  <tr>
+                    <td>
+                      <p>Microsoft Word</p>
+                      <div class="skillcontainer">
+                        <div class="skills msword">80%</div>
+                      </div>
+                    </td>
+                    <td>
+                      <p>Microsoft PowerPoint</p>
+                      <div class="skillcontainer">
+                        <div class="skills mspoint">80%</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <!---row4--->
+                  <tr>
+                    <td>
+                      <p>Microsoft Excel</p>
+                      <div class="skillcontainer">
+                        <div class="skills msexcel">70%</div>
+                      </div>
+                    </td>
+                  <!----Art--->
+                  <!---row5--->
+                    <tr>
+                      <th style="padding-top:25"><h2>Design</h2></th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <p>Krita</p>
+                        <div class="skillcontainer">
+                          <div class="skills krita">65%</div>
+                        </div>
+                      </td>
+                      <td>
+                        <p>Blender 3D</p>
+                        <div class="skillcontainer">
+                          <div class="skills blender">60%</div>
+                        </div>
+                      </td>
+                    </tr>
+                  <!---row6--->
+                  <tr>
+                    <td>
+                      <p>Adobe Photoshop</p>
+                      <div class="skillcontainer">
+                        <div class="skills photoshop">65%</div>
+                      </div>
+                    </td>
+                    <td>
+                      <p>Maya 3D</p>
+                      <div class="skillcontainer">
+                        <div class="skills maya">60%</div>
+                      </div>
+                    </td>
+                  </tr>
+                  <!----Audio--->
+                  <!---row7--->
+                  <tr>
+                    <th style="padding-top:25"><h2>Audio</h2></th>
+                  </tr>
+                <tr>
+                  <td>
+                    <p>Adobe Audition</p>
+                    <div class="skillcontainer">
+                      <div class="skills audition">75%</div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
             </div>
-        </div>
-    </div>
+            <style>
 
+.html {width: 80%; background-color: green;}                /*Programming*/
+.css {width: 70%; background-color: goldenrod;} 
+.js {width: 50%; background-color: red;} 
+.csharp {width: 80%; background-color: gray;} 
+.msword {width: 80%; background-color: blue;}               /*Documents*/
+.mspoint {width: 80%; background-color: orange;} 
+.msexcel {width: 70%; background-color: darkolivegreen;} 
+.krita {width: 65%; background-color: purple;}              /*Design*/
+.blender {width: 60%; background-color:tomato;} 
+.photoshop {width: 65%; background-color:royalblue;} 
+.maya {width: 60%; background-color:rosybrown;} 
+.audition {width: 75%; background-color:orchid;}            /*Audio*/
+* {box-sizing:border-box}                             /* Make sure that padding behaves as expected */
+.skillcontainer                                       /* Container for skill bars */
+{
+  width: 100%;/* Full width  = 100% */
+  background-color: #ddd; /* Grey background */
+}
+.skills                                              /* skill bar percentage*/
+{
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.accordion 
+{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+/* Add a background color to the button if it is clicked on
+(add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover
+{
+  background-color: #ccc;
+}
+.panel                          /* Style the accordion panel. Note: hidden by default */
+{
+  padding: 10;
+  background-color: snow;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.accordion:after 
+{
+  content: '\02795';          /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after
+{
+  content: "\2796";           /* Unicode character for "minus" sign (-) */
+}
+            </style>
+          </div>
+        </div>
+      </div>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++)
+    {
+      acc[i].addEventListener("click", function() 
+      {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block")
+        {
+          panel.style.display = "none";
+        } else
+        {
+          panel.style.display = "block";
+        }
+        if (panel.style.maxHeight)
+        {
+          panel.style.maxHeight = null;
+        } else
+        {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
   </body>
 </html>

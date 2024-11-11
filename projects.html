@@ -2,30 +2,76 @@
   <head>
     <title>Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-  <body>
+  <body style="max-height: 100%;">
 
-    <div  class="nav-container">
+    <div class="nav-container">
       <nav class="topMenu-style" role="navigation">
         <a class="nav-link" href="homepage.html">About me</a>
         <a class="nav-link" href="projects.html">Projects</a>
         <a class="nav-link" href="contact.html">Contact</a>
       </nav>
     </div>
+
+    <button class="tablink" onclick="openPage('Poster', this, 'red')">Posters</button>
+    <button class="tablink" onclick="openPage('ArtAssets', this, 'green')" id="defaultOpen">Assets</button>
+    <button class="tablink" onclick="openPage('GameProjects', this, 'blue')">Game Projects</button>
+    <button class="tablink" onclick="openPage('AudioEdits', this, 'orange')">Audio Edits</button>
     
-    <div class="section">
-        <div class="me-content">
-            <h1>Who is this?</h1>
-            <h1>Am I here?</h1>
-            <h1>Where am I?</h1>
-            <h1>I am here</h1>
-        </div>
+    <div id="Poster" class="tabcontent">
+      <div class="section">
+          <div class="me-content" style="border-top: 3px solid black; border-bottom: 3px solid black;">
+              <iframe src="digitalposters.html" style="height:100%;width:100%;" title="this is posters"></iframe>
+          </div>
+      </div>
+    </div>
+    
+    <div id="ArtAssets" class="tabcontent">
+      <h3>Assets</h3>
+    </div>
+    
+    <div id="GameProjects" class="tabcontent">
+      <h3>Game Projects</h3>
+    </div>
+    
+    <div id="AudioEdits" class="tabcontent">
+      <h3>Audio Edits</h3>
     </div>
 
     <!---     Add the projects or stuffs that I made. mostly screen shots and gameplay preview (in-case of games), sound audio edit and the original file-->
     <!--          and/or art works (3D and/or 2D) that I made. If possible also some websites (htmls and css) and programs (scripts) like 
               a Calculator/Index Searcher/etc. -->
+
+<script>
+    function openPage(pageName, elmnt, color) 
+    {
+        // Hide all elements with class="tabcontent" by default */
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) 
+        {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Remove the background color of all tablinks/buttons
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) 
+        {
+            tablinks[i].style.backgroundColor = "";
+        }
+
+        // Show the specific tab content
+        document.getElementById(pageName).style.display = "block";
+
+        // Add the specific color to the button used to open the tab content
+        elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
 
   </body>
 </html>
